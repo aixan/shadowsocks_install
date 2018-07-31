@@ -393,6 +393,8 @@ config_shadowsocks(){
     "protocol_param":"",
     "obfs":"${shadowsockobfs}",
     "obfs_param":"",
+    "speed_limit_per_con": 0, 
+    "speed_limit_per_user": 0,
     "redirect":"",
     "dns_ipv6":false,
     "fast_open":false,
